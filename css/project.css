@@ -1,0 +1,151 @@
+/* Procurando alguma coisa aqui? */
+
+*{
+    font-family: 'Signika', sans-serif;
+    font-size: large;
+}
+
+body{
+    margin: 0 auto;
+    width: 70em;  
+    background-image: url("../img/pattern.png");  
+}
+#content{overflow: auto;}
+
+#header{
+    margin-top: 1em;
+}
+
+#title{
+    margin-left: 1em;
+}
+
+#logo_sb{
+    width: "80";
+    height: auto;
+}
+
+#logo_sb_2{
+    width: "160";
+    height: auto;
+}
+
+#nav, #feature{
+    margin: 1%;
+}
+.column1{
+    width: 48%;
+    float: left;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.column2{
+    width: 48%;
+    float: right;
+    margin-top: 1%;
+}
+li{
+    display: inline;
+    padding: 0.5em;   
+}
+#nav{
+    background-color: #fffdf0;
+
+    padding: 1em;
+    color: rgb(100, 100, 100); 
+}
+
+#footer{
+    background-color: #fffdf0;
+    padding: 3px;
+    margin-top: 1%;
+    margin-bottom: 0;
+    color: rgb(100, 100, 100); 
+}
+
+#text_horario{
+    text-align: center;
+    color: rgb(100, 100, 100); 
+}
+
+
+#text_horario_h1{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(100, 100, 100); 
+
+}
+
+#text_aviso{
+    text-align: center;
+    font-size: xx-large;
+    color: #ff0000;
+    height: auto;
+}
+
+#featimg{
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+
+#feattext{
+        position: absolute;
+        top: 25%;
+        left: 15%;
+        transform: translate(-25%, -10%);
+        text-align: center;
+        font-size: 72px;
+        color: rgb(100, 100, 100); 
+        text-shadow: -4px 4px #00000036;
+}
+
+#img_moto{
+    display: block;
+    width: 15%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img_delivery{
+    display: block;
+    width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#feature{
+    margin-bottom: 1em;
+    position: relative;
+}
+
+#mapa{
+    display: block;
+    width: 100%;
+    height:auto;
+
+}
+
+.article{
+    height: 20em;
+    margin-bottom: 1em;
+    background-color: #fffdf0;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+}
+
+a:hover{
+    color: rgb(255, 94, 0);
+}
+
+#fontsiz{
+    font-size: 36px;
+}

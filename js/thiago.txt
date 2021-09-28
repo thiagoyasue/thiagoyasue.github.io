@@ -1,0 +1,79 @@
+<style>
+.TDN {
+}
+body {
+	background: fixed url("https://i.postimg.cc/VsRqHjJL/774369.jpg") center;
+}
+body, div, table, tr, td {
+	font: 11px verdana;
+}
+#footer, .sidebar, #ban, #ban_bottom, .ad_wrapper_fixed, hr, .brand-mamabar, #pushdown_banner, #ad-slug-wrapper, #ad-table, .slug, #pushdown_banner_btf {
+	display: none;
+}
+
+.user.medText a,
+.user.medText b,
+#logout_link {
+color: #fff !important;
+}
+
+#main {
+	border: 0px;
+	width: 830px;
+	margin-top: 0px;
+	background: #fff;
+}
+#content {
+	margin-left: 50px;
+	margin-top: -20px;
+	width: 735px;
+	border: 0px;
+	background: transparent;
+}
+#header {
+	background: transparent url("https://i.postimg.cc/d1ySwQNn/header-5.png") top center no-repeat;
+	height: 280px;
+	width: 830px;
+        border: 0px none;
+}
+.neopetModule {
+	background: #000;
+	font: 8px verdana;
+}
+#navigation {
+	width: 950px;
+}
+#navigation img {
+	background: #fff;
+	margin-top: 70px;
+}
+#template_nav {
+	margin-left: -110px;
+	margin-top: -68px;
+}
+#template_nav img {
+	display: block;
+}
+ul.dropdown {
+	border: 1px solid #000000;
+	background: #33b3cc;
+}
+.dropdown li a {
+	color: #000 !important;
+}
+.dropdown li a:hover {
+	color: #3d5a91 !important;
+}
+a:link, a:visited {
+	color: #5b77ac;
+}
+a:hover {
+	color: #196e95;
+}
+.content table img {
+	border: 0px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+</style>
+</p>

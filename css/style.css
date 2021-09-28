@@ -1,0 +1,28 @@
+p.align-center{
+    text-align: center;
+
+}
+
+.box{
+    background-color: lavenderblush;
+    width: 650px;
+    height: 300px;
+}
+
+.align-center{
+    display: block;
+    margin: 0;
+}
+
+img.align-center{
+    display: block;
+    margin: 0 auto;
+}
+
+img.large{
+    width: 500px;
+}
+
+img.medium{
+    width:250px;
+}
