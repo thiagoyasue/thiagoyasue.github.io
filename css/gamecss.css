@@ -1,0 +1,25 @@
+
+#title{
+    color: #ffffff;
+    text-align: center;
+}
+
+body{
+    margin: 0 auto;   
+    background-image: url(../img/game/libertadores.png);    
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+
+
+#personagens{
+    text-align: center;
+}
+
+#foot{   
+   
+    padding: 0;
+    margin-top: 35%;
+    text-align: center;
+}
