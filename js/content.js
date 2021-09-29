@@ -13,7 +13,7 @@ var message;
         message = 'Bom Dia!<br>Que tal um<br>Kobe Beef?';
 }
     else{
-        message = 'Hola';
+        message = 'Meia-noite... Hora de pedir comida!';
     }
 
     document.write('<div id="feattext">' + message + '</div');

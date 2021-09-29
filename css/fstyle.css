@@ -1,0 +1,15 @@
+/*
+formatação página principal site de teste para a disciplina de jogos weeabos
+data: 03/09/2020
+nome: thiago yasue
+versão: 1.0
+*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
