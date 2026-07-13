@@ -20,6 +20,7 @@ console.log("Resposta:", resposta);
 
 //inicializar();
 
+/*
 function inicializar() {
 
     pessoas
@@ -32,7 +33,7 @@ function inicializar() {
 
         });
 
-}
+}*/
 
 // --------------------
 // Eventos
