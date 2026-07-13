@@ -5,7 +5,8 @@
 const resposta = pessoas[Math.floor(Math.random() * pessoas.length)];
 
 const input = document.getElementById("inputPessoa");
-const lista = document.getElementById("listaPessoas");
+//const lista = document.getElementById("listaPessoas");
+const sugestoes = document.getElementById("sugestoes");
 const botao = document.getElementById("btnChutar");
 const tabela = document.querySelector("#tabelaResultados tbody");
 
@@ -17,7 +18,7 @@ console.log("Resposta:", resposta);
 // Inicialização
 // --------------------
 
-inicializar();
+//inicializar();
 
 function inicializar() {
 
@@ -45,6 +46,59 @@ input.addEventListener("keydown", e => {
         chutar();
 
 });
+
+input.addEventListener("input", atualizarSugestoes);
+
+function atualizarSugestoes(){
+
+    const texto = input.value.toLowerCase().trim();
+
+    sugestoes.innerHTML = "";
+
+    if(texto === ""){
+
+        sugestoes.style.display = "none";
+        return;
+
+    }
+
+    const encontrados = pessoas.filter(p =>
+        p.nome.toLowerCase().includes(texto)
+    );
+
+    if(encontrados.length === 0){
+
+        sugestoes.style.display = "none";
+        return;
+
+    }
+
+    sugestoes.style.display = "block";
+
+    encontrados.forEach(pessoa => {
+
+        const div = document.createElement("div");
+
+        div.className = "sugestao";
+
+        div.textContent = pessoa.nome;
+
+        div.addEventListener("click", () => {
+
+            input.value = pessoa.nome;
+
+            sugestoes.innerHTML = "";
+            sugestoes.style.display = "none";
+
+            input.focus();
+
+        });
+
+        sugestoes.appendChild(div);
+
+    });
+
+}
 
 // --------------------
 // Chutar
@@ -84,6 +138,16 @@ function chutar() {
 
     input.value = "";
     input.focus();
+
+    if (pessoa.nome === resposta.nome) {
+
+    alert("🎉 Parabéns! Você acertou!");
+
+    input.disabled = true;
+    botao.disabled = true;
+
+    return;
+    }
 
 }
 
@@ -141,32 +205,29 @@ function comparar(chute, resposta){
 
 function compararAtributo(chute, resposta){
 
-    // Lista (grupo, formação...)
+    // Arrays (grupo, formação, etc.)
     if(Array.isArray(resposta)){
 
-        const iguais = chute.filter(x =>
-            resposta.includes(x)
+        const iguais = chute.filter(item =>
+            resposta.includes(item)
         );
 
-        if(iguais.length == 0)
+        if(iguais.length === 0)
             return "vermelho";
 
-        if(iguais.length == resposta.length &&
-           chute.length == resposta.length)
+        if(
+            iguais.length === resposta.length &&
+            chute.length === resposta.length
+        )
             return "verde";
 
         return "amarelo";
-
     }
 
     // Texto
-    else{
+    if(chute === resposta)
+        return "verde";
 
-        if(chute == resposta)
-            return "verde";
-
-        return "vermelho";
-
-    }
+    return "vermelho";
 
 }

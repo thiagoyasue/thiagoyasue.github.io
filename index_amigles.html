@@ -14,21 +14,25 @@
 
     <p>Tente adivinhar a pessoa do dia!</p>
 
-    <div class="pesquisa">
+<div class="pesquisa">
+
+    <div class="autocomplete">
 
         <input
             id="inputPessoa"
-            list="listaPessoas"
-            placeholder="Digite um nome..."
+            type="text"
+            placeholder="Digite o nome de um amigo..."
             autocomplete="off">
 
-        <datalist id="listaPessoas"></datalist>
-
-        <button id="btnChutar">
-            Chutar
-        </button>
+        <div id="sugestoes" class="sugestoes"></div>
 
     </div>
+
+    <button id="btnChutar">
+        Chutar
+    </button>
+
+</div>
 
     <hr>
 
