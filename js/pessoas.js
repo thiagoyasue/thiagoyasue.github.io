@@ -4,14 +4,14 @@ const pessoas = [
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Asiático",
-    grupo: ["Vôlei, Família Alex"]
+    grupo: ["Vôlei", "Família Alex"]
   },
   {
     nome: "Andrevaz",
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Branco",
-    grupo: ["Designer, Artista, Músico, Criador de Conteúdo"]
+    grupo: ["Designer", "Artista", "Músico", "Criador de Conteúdo"]
   },
   {
     nome: "Arthur Santarelli",
@@ -25,7 +25,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Branco",
-    grupo: ["Professor, Idoso"]
+    grupo: ["Professor", "Idoso"]
   },
   {
     nome: "Biel",
@@ -46,14 +46,14 @@ const pessoas = [
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Branco",
-    grupo: ["Política, Criador de Conteúdo"]
+    grupo: ["Política", "Criador de Conteúdo"]
   },
   {
     nome: "Cristão",
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Branco",
-    grupo: ["Família Lucão, Lolzeiro"]
+    grupo: ["Família Lucão", "Lolzeiro"]
   },
   {
     nome: "Daniel",
@@ -67,14 +67,14 @@ const pessoas = [
     sexo: "Feminino",
     local: "Mogi",
     etnia: "Branco",
-    grupo: ["Booklover, Vôlei, Artista, Família Hirowki"]
+    grupo: ["Booklover", "Vôlei", "Artista", "Família Hirowki"]
   },
   {
     nome: "Diego",
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Branco",
-    grupo: ["Músico, Família Hirowki"]
+    grupo: ["Músico", "Família Hirowki"]
   },
   {
     nome: "Elizabeth",
@@ -95,7 +95,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Branco",
-    grupo: ["Família Lucão, Criador de Conteúdo"]
+    grupo: ["Família Lucão", "Criador de Conteúdo"]
   },
   {
     nome: "Geraldo",
@@ -116,28 +116,28 @@ const pessoas = [
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Asiático",
-    grupo: ["Basquete, Gamer"]
+    grupo: ["Basquete", "Gamer"]
   },
   {
     nome: "Hiroshi",
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Asiático",
-    grupo: ["Gamer, Designer, Vôlei, Futebol, Família Hirowki"]
+    grupo: ["Gamer", "Designer", "Vôlei", "Futebol", "Família Hirowki"]
   },
   {
     nome: "Jader",
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Branco",
-    grupo: ["Lolzeiro, Política, Criador de Conteúdo, Maconheiro"]
+    grupo: ["Lolzeiro", "Política", "Criador de Conteúdo", "Maconheiro"]
   },
   {
     nome: "Jair",
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Alien",
-    grupo: ["Maconheiro, Cachaceiro"]
+    grupo: ["Maconheiro", "Cachaceiro"]
   },
   {
     nome: "João Pedro",
@@ -151,7 +151,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Asiático",
-    grupo: ["Basquete, Gamer"]
+    grupo: ["Basquete", "Gamer"]
   },
   {
     nome: "Jonas",
@@ -165,7 +165,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Branco",
-    grupo: ["Careca, Idoso"]
+    grupo: ["Calvo", "Idoso"]
   },
   {
     nome: "Juliana",
@@ -186,7 +186,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Suzano",
     etnia: "Asiático",
-    grupo: ["Vôlei, Economista, Booklover"]
+    grupo: ["Vôlei", "Economista", "Booklover"]
   },
   {
     nome: "Letícia Valente",
@@ -200,7 +200,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Branco",
-    grupo: ["Lolzeiro, Programador, Família Lucão"]
+    grupo: ["Lolzeiro", "Programador", "Família Lucão"]
   },
   {
     nome: "Luis Gustavo",
@@ -221,7 +221,7 @@ const pessoas = [
     sexo: "Feminino",
     local: "Mogi",
     etnia: "Asiático",
-    grupo: ["Professor, Idoso, Biologia"]
+    grupo: ["Professor", "Idoso", "Biologia"]
   },
   {
     nome: "Maurício",
@@ -235,7 +235,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Guararema",
     etnia: "Branco",
-    grupo: ["Artista, Basquete, Criador de Conteúdo, Família Mateus Melo"]
+    grupo: ["Artista", "Calvo", "Basquete", "Criador de Conteúdo", "Família Mateus Melo"]
   },
   {
     nome: "Misael",
@@ -249,14 +249,14 @@ const pessoas = [
     sexo: "Masculino",
     local: "Guararema",
     etnia: "Negro",
-    grupo: ["Músico, Criador de Conteúdo"]
+    grupo: ["Músico", "Criador de Conteúdo"]
   },
   {
     nome: "Nicolas",
     sexo: "Masculino",
     local: "Jacareí",
     etnia: "Asiático",
-    grupo: ["Gamer, Programador, Família Hirowki"]
+    grupo: ["Gamer", "Programador", "Família Hirowki"]
   },
   {
     nome: "Paçoca",
@@ -277,14 +277,14 @@ const pessoas = [
     sexo: "Masculino",
     local: "Suzano",
     etnia: "Alien",
-    grupo: ["Gamer, Cachaceiro"]
+    grupo: ["Gamer", "Cachaceiro"]
   },
   {
     nome: "Plínio",
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Pardo",
-    grupo: ["Criador de Conteúdo, Psicólogo"]
+    grupo: ["Criador de Conteúdo", "Psicólogo"]
   },
   {
     nome: "Rafael LPL",
@@ -305,7 +305,7 @@ const pessoas = [
     sexo: "Feminino",
     local: "Mogi",
     etnia: "Asiático",
-    grupo: ["Professor, Idoso, Família Alex"]
+    grupo: ["Professor", "Idoso", "Família Alex"]
   },
   {
     nome: "Stephany",
@@ -326,14 +326,14 @@ const pessoas = [
     sexo: "Feminino",
     local: "Mogi",
     etnia: "Branco",
-    grupo: ["Professor, Idoso"]
+    grupo: ["Professor", "Idoso"]
   },
   {
     nome: "Thales do Espírito",
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Pardo",
-    grupo: ["Cachaceiro, Programador"]
+    grupo: ["Cachaceiro", "Programador"]
   },
   {
     nome: "Thales Stilhano",
@@ -347,21 +347,21 @@ const pessoas = [
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Asiático",
-    grupo: ["Programador, Lolzeiro, Professor"]
+    grupo: ["Programador", "Lolzeiro", "Professor"]
   },
   {
     nome: "Tiozão",
     sexo: "Masculino",
     local: "Japão",
     etnia: "Asiático",
-    grupo: ["Maconheiro, Idoso"]
+    grupo: ["Maconheiro", "Idoso"]
   },
   {
     nome: "Vanderson",
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Negro",
-    grupo: ["Família Lucão, Lolzeiro"]
+    grupo: ["Família Lucão", "Lolzeiro"]
   },
   {
     nome: "Vitão",
