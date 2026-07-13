@@ -39,3 +39,16 @@ th,td{
 th{
     background:#efefef;
 }
+
+.verde{
+    background:#4caf50;
+}
+
+.amarelo{
+    background:#fbc02d;
+}
+
+.vermelho{
+    background:#d32f2f;
+    color:white;
+}
