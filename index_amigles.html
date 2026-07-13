@@ -1,16 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
-<input
-    id="inputPessoa"
-    list="listaPessoas"
-    placeholder="Digite um nome">
+<head>
+    <meta charset="UTF-8">
+    <title>Amigles</title>
 
-<datalist id="listaPessoas"></datalist>
+    <link rel="stylesheet" href="amigles.css">
+</head>
 
-<button id="btnChutar">
-    Chutar
-</button>
+<body>
 
-<div id="resultado"></div>
+    <h1>Amigles</h1>
+
+    <p>Tente adivinhar a pessoa do dia!</p>
+
+    <div class="pesquisa">
+
+        <input
+            id="inputPessoa"
+            list="listaPessoas"
+            placeholder="Digite um nome..."
+            autocomplete="off">
+
+        <datalist id="listaPessoas"></datalist>
+
+        <button id="btnChutar">
+            Chutar
+        </button>
+
+    </div>
+
+    <hr>
+
+    <table id="tabelaResultados">
+
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Local</th>
+                <th>Etnia</th>
+                <th>Grupo</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+        </tbody>
+
+    </table>
+
+    <script src="pessoas.js"></script>
+    <script src="amigles.js"></script>
+
+</body>
+
 </html>
