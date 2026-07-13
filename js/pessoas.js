@@ -170,7 +170,7 @@ const pessoas = [
     {
     nome: "Jowjow",
     sexo: "Masculino",
-    local: "Suzano",
+    local: "Jundiapeba",
     etnia: "Branco",
     grupo: ["Programador","Futebol"]
   },
