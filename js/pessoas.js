@@ -39,7 +39,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Maringá",
     etnia: "Pardo",
-    grupo: ["Programador"]
+    grupo: ["Programador","RPG"]
   },
   {
     nome: "Caio Cunha",
@@ -116,7 +116,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Asiático",
-    grupo: ["Basquete", "Gamer"]
+    grupo: ["Basquete", "Gamer","Fazendeiro"]
   },
   {
     nome: "Hiroshi",
@@ -137,7 +137,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Alien",
-    grupo: ["Maconheiro", "Cachaceiro"]
+    grupo: ["Maconheiro", "Cachaceiro","RPG"]
   },
   {
     nome: "João Pedro",
@@ -166,6 +166,13 @@ const pessoas = [
     local: "Mogi",
     etnia: "Branco",
     grupo: ["Calvo", "Idoso"]
+  },
+    {
+    nome: "Jowjow",
+    sexo: "Masculino",
+    local: "Suzano",
+    etnia: "Branco",
+    grupo: ["Programador"]
   },
   {
     nome: "Juliana",
@@ -207,7 +214,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Branco",
-    grupo: ["Programador"]
+    grupo: ["Programador","RPG"]
   },
   {
     nome: "Luquinhas",
@@ -235,7 +242,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Guararema",
     etnia: "Branco",
-    grupo: ["Artista", "Calvo", "Basquete", "Criador de Conteúdo", "Família Mateus Melo"]
+    grupo: ["Artista", "RPG","Calvo", "Basquete", "Criador de Conteúdo", "Família Mateus Melo"]
   },
   {
     nome: "Misael",
@@ -319,7 +326,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Taiaçupeba",
     etnia: "Branco",
-    grupo: ["Professor"]
+    grupo: ["Professor","RPG"]
   },
   {
     nome: "Teacher Erica",
@@ -333,28 +340,28 @@ const pessoas = [
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Pardo",
-    grupo: ["Cachaceiro", "Programador"]
+    grupo: ["Cachaceiro", "Programador","RPG","Calvo"]
   },
   {
     nome: "Thales Stilhano",
     sexo: "Masculino",
     local: "Minas Gerais",
     etnia: "Pardo",
-    grupo: ["Gamer"]
+    grupo: ["Gamer","RPG"]
   },
   {
     nome: "Thiago",
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Asiático",
-    grupo: ["Programador", "Lolzeiro", "Professor"]
+    grupo: ["Programador", "Lolzeiro", "Professor","RPG"]
   },
   {
     nome: "Tiozão",
     sexo: "Masculino",
     local: "Japão",
     etnia: "Asiático",
-    grupo: ["Maconheiro", "Idoso"]
+    grupo: ["Maconheiro", "Idoso", "Basquete"]
   },
   {
     nome: "Vanderson",
@@ -375,14 +382,14 @@ const pessoas = [
     sexo: "Masculino",
     local: "Irlanda",
     etnia: "Branco",
-    grupo: ["Cachaceiro"]
+    grupo: ["Cachaceiro","RPG"]
   },
   {
     nome: "Yudi",
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Asiático",
-    grupo: ["Traidor"]
+    grupo: ["Traidor","Fazendeiro"]
   },
   {
     nome: "Yves",
