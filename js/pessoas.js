@@ -18,7 +18,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Branco",
-    grupo: ["Criador de Conteúdo"]
+    grupo: ["Criador de Conteúdo","Futebol"]
   },
   {
     nome: "Artur Vilares",
@@ -32,14 +32,14 @@ const pessoas = [
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Branco",
-    grupo: ["Gamer"]
+    grupo: ["Gamer","Futebol"]
   },
   {
     nome: "Bolinho",
     sexo: "Masculino",
     local: "Maringá",
     etnia: "Pardo",
-    grupo: ["Programador","RPG"]
+    grupo: ["Programador","RPG","Futebol"]
   },
   {
     nome: "Caio Cunha",
@@ -60,7 +60,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Guaratinguetá",
     etnia: "Branco",
-    grupo: ["Gamer"]
+    grupo: ["Gamer","Futebol"]
   },
   {
     nome: "Debora",
@@ -88,7 +88,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Branco",
-    grupo: ["Maconheiro"]
+    grupo: ["Maconheiro","Futebol"]
   },
   {
     nome: "Filipe Almeida (Compartilha)",
@@ -116,7 +116,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Asiático",
-    grupo: ["Basquete", "Gamer","Fazendeiro"]
+    grupo: ["Basquete", "Gamer","Fazendeiro","Futebol"]
   },
   {
     nome: "Hiroshi",
@@ -144,7 +144,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Campinas",
     etnia: "Branco",
-    grupo: ["Programador"]
+    grupo: ["Programador","Futebol"]
   },
   {
     nome: "Johnny",
@@ -172,7 +172,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Suzano",
     etnia: "Branco",
-    grupo: ["Programador"]
+    grupo: ["Programador","Futebol"]
   },
   {
     nome: "Juliana",
@@ -207,7 +207,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Branco",
-    grupo: ["Lolzeiro", "Programador", "Família Lucão"]
+    grupo: ["Lolzeiro", "Programador", "Família Lucão","Futebol"]
   },
   {
     nome: "Luis Gustavo",
@@ -249,7 +249,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Pardo",
-    grupo: ["Músico"]
+    grupo: ["Músico","Futebol"]
   },
   {
     nome: "Natural",
@@ -270,7 +270,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "São Paulo",
     etnia: "Pardo",
-    grupo: ["Criador de Conteúdo"]
+    grupo: ["Criador de Conteúdo","Futebol"]
   },
   {
     nome: "Pedro",
