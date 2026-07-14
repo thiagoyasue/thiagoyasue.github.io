@@ -70,13 +70,6 @@ const pessoas = [
     grupo: ["Booklover", "Vôlei", "Artista", "Família Hirowki"]
   },
   {
-    nome: "Diego",
-    sexo: "Masculino",
-    local: "Mogi",
-    etnia: "Branco",
-    grupo: ["Músico", "Família Hirowki"]
-  },
-  {
     nome: "Elizabeth",
     sexo: "Feminino",
     local: "Mogi",
@@ -137,7 +130,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Alien",
-    grupo: ["Maconheiro", "Cachaceiro","RPG"]
+    grupo: ["Maconheiro", "Cachaceiro","RPG","Futebol"]
   },
   {
     nome: "João Pedro",
@@ -215,13 +208,6 @@ const pessoas = [
     local: "Mogi",
     etnia: "Branco",
     grupo: ["Programador","RPG"]
-  },
-  {
-    nome: "Luquinhas",
-    sexo: "Masculino",
-    local: "Osasco",
-    etnia: "Branco",
-    grupo: ["Família Mateus Melo"]
   },
   {
     nome: "Mary",
@@ -305,7 +291,7 @@ const pessoas = [
     sexo: "Masculino",
     local: "Suzano",
     etnia: "Pardo",
-    grupo: ["Músico"]
+    grupo: ["Músico","Futebol"]
   },
   {
     nome: "Sônia Nan",
@@ -396,6 +382,6 @@ const pessoas = [
     sexo: "Masculino",
     local: "Mogi",
     etnia: "Asiático",
-    grupo: ["Vôlei"]
+    grupo: ["Vôlei","Futebol"]
   }
 ];
